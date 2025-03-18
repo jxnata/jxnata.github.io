@@ -18,11 +18,7 @@ import { useParams } from 'react-router-dom'
 export function Project() {
 	const { id } = useParams()
 	const { data: project } = useProject(id!)
-	const {
-		appStoreInfo,
-		playStoreInfo,
-		isLoading: isLoadingStoreInfo,
-	} = useStoreInfo(project?.appstore, project?.playstore)
+	const { appStoreInfo, isLoading: isLoadingStoreInfo } = useStoreInfo(project?.appstore, project?.playstore)
 	const scrollContainerRef = useRef<HTMLDivElement>(null)
 
 	const scroll = (direction: 'left' | 'right') => {
