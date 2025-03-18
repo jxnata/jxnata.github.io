@@ -1,20 +1,34 @@
-import Header from './components/header'
-import ProjectItem from './components/project-item'
-import projects from './data/projects.json'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { ThemeProvider } from 'next-themes';
+import { Navigation } from './components/Navigation';
+import { Home } from './pages/Home';
+import { Projects } from './pages/Projects';
+import { Project } from './pages/Project';
+import { Blog } from './pages/Blog';
+
+const queryClient = new QueryClient();
 
 function App() {
-	return (
-		<div className='container flex flex-col items-center pt-8 max-w-screen-2xl mx-auto p-4'>
-			<Header />
-			<div className='mt-8 noscrollbar flex'>
-				<div className='flex flex-wrap justify-center gap-2'>
-					{projects.map((project) => (
-						<ProjectItem key={project.name} project={project} />
-					))}
-				</div>
-			</div>
-		</div>
-	)
+  return (
+    <QueryClientProvider client={queryClient}>
+      <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <Router>
+          <div className="relative min-h-screen">
+            <Navigation />
+            <main>
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/projects/:id" element={<Project />} />
+                <Route path="/blog" element={<Blog />} />
+              </Routes>
+            </main>
+          </div>
+        </Router>
+      </ThemeProvider>
+    </QueryClientProvider>
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,9 @@
+{
+	"name": "LS Maps",
+	"url": "",
+	"description": "LS Maps is a tool designed to facilitate efficient management and assignment of maps for preaching in Sign Language congregations.",
+	"image": "/portfolio/ls-maps.png",
+	"tags": ["ios", "android", "mobile"],
+	"appstore": "https://apps.apple.com/us/app/jw-maps/id6478899478",
+	"playstore": "https://play.google.com/store/apps/details?id=dev.jxnata.jwmaps&hl=pt_BR&pli=1"
+}
