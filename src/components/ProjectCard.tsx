@@ -12,7 +12,6 @@ export function ProjectCard({ project, variant = 'default' }: ProjectCardProps) 
 			<div className='project-card'>
 				<div className='flex items-start justify-between gap-8'>
 					<div className='space-y-2'>
-						<div className='text-sm text-muted-foreground'>2024 · present</div>
 						<h3 className={variant === 'default' ? 'text-xl font-medium' : 'font-medium'}>
 							{project.name}
 						</h3>
