@@ -5,5 +5,6 @@
 	"image": "/portfolio/ls-maps.png",
 	"tags": ["ios", "android", "mobile"],
 	"appstore": "https://apps.apple.com/us/app/jw-maps/id6478899478",
-	"playstore": "https://play.google.com/store/apps/details?id=dev.jxnata.jwmaps&hl=pt_BR&pli=1"
+	"playstore": "https://play.google.com/store/apps/details?id=dev.jxnata.jwmaps&hl=pt_BR&pli=1",
+	"featured": true
 }

@@ -7,6 +7,7 @@ export interface Project {
   appstore?: string;
   playstore?: string;
   inactive?: boolean;
+  featured?: boolean;
   slug: string;
 }
 

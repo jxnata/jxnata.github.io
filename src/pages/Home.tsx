@@ -20,6 +20,10 @@ export function Home() {
 		},
 	})
 
+	// Filter featured projects first, then take the first 3
+	const featuredProjects = projects?.filter((project) => project.featured) || []
+	const displayProjects = featuredProjects.length > 0 ? featuredProjects.slice(0, 3) : projects?.slice(0, 3) || []
+
 	return (
 		<div className='mx-auto max-w-3xl space-y-24 px-4 pt-24'>
 			<section className='space-y-4'>
@@ -45,7 +49,7 @@ export function Home() {
 					Selected projects
 				</h2>
 				<div className='grid gap-12'>
-					{projects?.slice(0, 3).map((project) => (
+					{displayProjects.map((project) => (
 						<ProjectCard key={project.name} project={project} variant='compact' />
 					))}
 				</div>
