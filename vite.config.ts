@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  base: '/jxnata.github.io',
   plugins: [react()],
   resolve: {
     alias: {
@@ -11,5 +12,12 @@ export default defineConfig({
   },
   optimizeDeps: {
     exclude: ['lucide-react'],
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      },
+    },
   },
 });
