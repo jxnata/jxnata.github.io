@@ -3,7 +3,7 @@ export interface Project {
   url?: string;
   description: string;
   image: string;
-  tags: string[];
+  technologies: string[];
   appstore?: string;
   playstore?: string;
   inactive?: boolean;

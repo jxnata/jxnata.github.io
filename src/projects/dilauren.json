@@ -1,0 +1,10 @@
+{
+	"name": "Dilauren",
+	"url": "https://dilauren.com.br",
+	"description": "E-commerce for genuine leather bags and accessories for women. Complete online store with product catalog, payment system, order management and discount coupons.",
+	"image": "/portfolio/dilauren.png",
+	"technologies": ["WordPress", "WooCommerce", "PHP", "MySQL", "JavaScript", "CSS"],
+	"appstore": "",
+	"playstore": "",
+	"featured": true
+}

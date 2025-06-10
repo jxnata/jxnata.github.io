@@ -1,9 +1,9 @@
 {
 	"name": "Mildd: Sounds to Sleep",
-	"url": "https://www.producthunt.com/posts/mildd-sounds-to-sleep",
+	"url": "",
 	"description": "Mildd is an app made for you to connect with nature, providing relaxation, reducing stress and anxiety and helping to combat insomnia.",
 	"image": "/portfolio/mildd.png",
-	"tags": ["ios", "mobile"],
+	"technologies": ["React Native", "TypeScript", "iOS"],
 	"appstore": "https://apps.apple.com/us/app/mildd-sleep-sounds/id1534933606",
 	"playstore": "",
 	"inactive": true

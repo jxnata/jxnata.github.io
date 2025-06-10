@@ -1,9 +1,9 @@
 {
 	"name": "NutriAI: Smart Nutrition Guide",
 	"url": "",
-	"description": "NutriAI is a smart nutrition assistant that uses AI to track calories, macros, and nutritional intake. Simply snap a photo of your meal, and AI instantly analyzes its nutritional content, helping you achieve your health and fitness goals with personalized recommendations.",
+	"description": "NutriAI is a smart nutrition assistant that uses AI to track calories, macros, and nutritional intake. Simply snap a photo of your meal, and AI instantly analyzes its nutritional content.",
 	"image": "/portfolio/nutriai.png",
-	"tags": ["ios", "android", "mobile", "ai"],
+	"technologies": ["React Native", "TypeScript", "iOS", "Android"],
 	"appstore": "https://apps.apple.com/us/app/nutriai-smart-nutrition-guide/id6742901094",
 	"playstore": "https://play.google.com/store/apps/details?id=dev.jxnata.nutriai",
 	"featured": true

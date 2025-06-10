@@ -1,0 +1,10 @@
+{
+	"name": "Devit: Task Manager",
+	"url": "",
+	"description": "Devit simplifies agile project management with seamless GitHub integration. An intuitive, minimalist solution for fast and efficient task execution.",
+	"image": "/portfolio/devit.png",
+	"technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Shadcn UI", "PostgreSQL", "Supabase"],
+	"appstore": "",
+	"playstore": "",
+	"featured": false
+}

@@ -3,7 +3,7 @@
 	"url": "",
 	"description": "iCotei connects customers with parts suppliers for appliances, electronics, and automobiles. Users can request quotes with photos, receive proposals from suppliers, and choose between pickup or delivery options, making the parts search process quick and efficient.",
 	"image": "/portfolio/icotei.png",
-	"tags": ["ios", "android", "mobile"],
+	"technologies": ["React Native", "Expo", "TypeScript", "Android", "iOS"],
 	"appstore": "https://apps.apple.com/us/app/icotei/id6740185678",
 	"playstore": "https://play.google.com/store/apps/details?id=com.jxnata.icotei",
 	"featured": true

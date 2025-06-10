@@ -3,7 +3,7 @@
 	"url": "",
 	"description": "With Device Info you can find information about storage, battery, network and wifi, sensors, CPU, operating system and much more.",
 	"image": "/portfolio/device-info-toolkit.png",
-	"tags": ["ios", "mobile"],
+	"technologies": ["React Native", "Expo", "TypeScript", "iOS"],
 	"appstore": "https://apps.apple.com/us/app/device-info-toolkit/id1529223828",
 	"playstore": ""
 }

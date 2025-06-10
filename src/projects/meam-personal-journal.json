@@ -1,9 +1,9 @@
 {
 	"name": "Meam: Personal Journal",
-	"url": "https://www.producthunt.com/products/meam-personal-journal",
+	"url": "",
 	"description": "Meam is more than a diary app. It's your virtual friend that will help you become happier and more productive.",
 	"image": "/portfolio/meam.png",
-	"tags": ["ios", "mobile"],
+	"technologies": ["React Native", "TypeScript", "iOS"],
 	"appstore": "https://apps.apple.com/us/app/meam-personal-journal/id1566905811",
 	"playstore": ""
 }

@@ -3,7 +3,7 @@
 	"url": "",
 	"description": "ShopEasy is a powerful tool that helps you find the best deals and manage your grocery budget effectively.",
 	"image": "/portfolio/shopeasy.png",
-	"tags": ["ios", "mobile"],
+	"technologies": ["React Native", "Expo", "TypeScript", "iOS"],
 	"appstore": "https://apps.apple.com/app/shopeasy-grocery-lists/id6557038642",
 	"playstore": ""
 }
