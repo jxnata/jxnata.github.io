@@ -3,7 +3,7 @@ import { ThemeProvider } from 'next-themes'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import Footer from './components/footer'
 import Navbar from './components/navbar'
-import Home from './pages/home'
+import Home from './pages'
 
 const queryClient = new QueryClient()
 
