@@ -1,5 +1,6 @@
 export interface Project {
   name: string;
+  order: number;
   url?: string;
   description: string;
   image: string;

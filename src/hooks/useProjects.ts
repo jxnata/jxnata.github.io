@@ -8,11 +8,12 @@ export function useProjects() {
 	return useQuery<Project[]>({
 		queryKey: ['projects'],
 		queryFn: async () => {
-			// Convert the modules object into an array of projects with slugs
-			return Object.entries(projectModules).map(([path, project]) => ({
+			const projects = Object.entries(projectModules).map(([path, project]) => ({
 				...project,
 				slug: path.split('/').pop()?.replace('.json', '') || ''
 			}));
+
+			return projects.sort((firstProject, secondProject) => firstProject.order - secondProject.order);
 		},
 	});
 }

@@ -1,0 +1,10 @@
+{
+	"name": "Routiny: Your Daily Routine & Task Organizer",
+	"order": 4,
+	"url": "",
+	"description": "Stay organized, build lasting habits, and simplify your life with Routiny: the minimalist productivity app designed to help you stay on track every day.",
+	"image": "/portfolio/routiny.png",
+	"technologies": ["React Native", "Expo", "TypeScript", "iOS"],
+	"appstore": "https://apps.apple.com/app/routiny-task-habit-planner/id6747647829",
+	"playstore": ""
+}

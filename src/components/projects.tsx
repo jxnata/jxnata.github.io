@@ -11,11 +11,7 @@ const ProjectCard = ({ name, description, image, technologies, url, playstore, a
 		<div className='group relative flex flex-col overflow-hidden rounded-xl border border-accent transition-all hover:border-primary/50'>
 			{/* Project Image */}
 			<div className='relative h-64 overflow-hidden bg-accent'>
-				<img
-					src={image}
-					alt={name}
-					className='object-cover h-64 w-full transition-transform duration-300 group-hover:scale-105'
-				/>
+				<img src={image} alt={name} className='object-cover h-64 w-full transition-transform duration-300 group-hover:scale-105' />
 			</div>
 
 			{/* Content */}
@@ -74,9 +70,7 @@ const Projects = ({ featured }: { featured?: boolean }) => {
 					<Badge variant='secondary' className='mb-4'>
 						Projects
 					</Badge>
-					<h2 className='text-4xl sm:text-5xl font-bold tracking-tight'>
-						{featured ? 'Featured Work' : 'All Projects'}
-					</h2>
+					<h2 className='text-4xl sm:text-5xl font-bold tracking-tight'>{featured ? 'Featured Work' : 'All Projects'}</h2>
 					<p className='text-muted-foreground mt-2 sm:mt-4 text-lg'>
 						Showcasing some of my best projects and technical achievements
 					</p>

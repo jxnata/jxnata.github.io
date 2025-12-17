@@ -1,5 +1,6 @@
 {
 	"name": "Meam: Personal Journal",
+	"order": 8,
 	"url": "",
 	"description": "Meam is more than a diary app. It's your virtual friend that will help you become happier and more productive.",
 	"image": "/portfolio/meam.png",

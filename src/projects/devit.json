@@ -1,5 +1,6 @@
 {
 	"name": "Devit: Task Manager",
+	"order": 10,
 	"url": "",
 	"description": "Devit simplifies agile project management with seamless GitHub integration. An intuitive, minimalist solution for fast and efficient task execution.",
 	"image": "/portfolio/devit.png",

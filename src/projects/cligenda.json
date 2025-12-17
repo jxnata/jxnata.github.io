@@ -1,10 +1,10 @@
 {
 	"name": "Cligenda",
+	"order": 12,
 	"url": "https://cligenda.vercel.app",
 	"description": "Complete appointment scheduling system for Brazilian medical clinics. Offers intelligent scheduling, patient management, automatic WhatsApp notifications, doctor availability control and more.",
 	"image": "/portfolio/cligenda.png",
 	"technologies": ["Next.js", "React", "TypeScript", "Turso", "Tailwind CSS", "Vercel"],
 	"appstore": "",
-	"playstore": "",
-	"featured": true
+	"playstore": ""
 }

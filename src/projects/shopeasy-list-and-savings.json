@@ -1,5 +1,6 @@
 {
 	"name": "ShopEasy: List & Savings",
+	"order": 1,
 	"url": "",
 	"description": "ShopEasy is a powerful tool that helps you find the best deals and manage your grocery budget effectively.",
 	"image": "/portfolio/shopeasy.png",

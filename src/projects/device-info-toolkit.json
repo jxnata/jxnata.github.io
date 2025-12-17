@@ -1,5 +1,6 @@
 {
 	"name": "Device Info Toolkit",
+	"order": 7,
 	"url": "",
 	"description": "With Device Info you can find information about storage, battery, network and wifi, sensors, CPU, operating system and much more.",
 	"image": "/portfolio/device-info-toolkit.png",

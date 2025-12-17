@@ -1,0 +1,10 @@
+{
+	"name": "LoveMemo: Surprise your love",
+	"order": 2,
+	"url": "",
+	"description": "LoveMemo is the perfect app to generate romantic surprises. Create a dynamic counter of time together, add photos and music, and generate an unforgettable surprise in QR Code for the person you love.",
+	"image": "/portfolio/lovememo.png",
+	"technologies": ["React Native", "Expo", "TypeScript", "iOS"],
+	"appstore": "https://apps.apple.com/app/lovememo-surprise-your-love/id6743683200",
+	"playstore": ""
+}
